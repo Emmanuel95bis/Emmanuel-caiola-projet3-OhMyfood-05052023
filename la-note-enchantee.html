@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/ficheRestaurant.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
         integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -14,9 +14,13 @@
 </head>
 
 <body>
+
+
     <header class="header__menu">
         <div class="header__firstl">
-            <i class="fa-solid fa-arrow-left"></i>
+            <a href="index.html">
+                <i class="fa-solid fa-arrow-left"></i>
+            </a>
             <img src="/images/logo/ohmyfood.png" alt="logo Ohmyfood">
         </div>
         <div class="header__image">
@@ -24,89 +28,153 @@
         </div>
     </header>
     <main>
-        <div class="restaurant">
-            <H1>À la française</H1>
-            <i class="fa-solid fa-heart"></i>
-        </div>
-        <h3>Entrées</h3>
-        <div class="traitVert"></div>
-        <section>
-            <div class="menu">
-                <p>Tartare de poulpe acidulé</p>
-                <div class="menu__secondel">
-                    <p>Aux zestes d'orange</p>
-                    <p>25€</p>
-                </div>
-            </div>
-            <div class="menu">
-                <p>Velouté de légumes d'antan</p>
-                <div class="menu__secondel">
-                    <p>Carotte, panais, topinambour</p>
-                    <p>35€</p>
-                </div>
-            </div>
-            <div class="menu">
-                <p>Soupe à l'oignon</p>
-                <div class="menu__secondel">
-                    <p>Revisitée</p>
-                    <p>20€</p>
-                </div>
-            </div>
-        </section>
-        <h3> Plats</h3>
-        <div class="traitVert"></div>
-        <section>
 
-            <div class="menu">
-                <p>Coquilles Saint-Jacques</p>
-                <div class="menu__secondel">
-                    <p>Accompagnées d'une purée de panais</p>
-                    <p>40€</p>
+        <div class="mainRestaurant">
+            <div class="nomRestaurant">
+                <H1>La note enchantée</H1>
+                <div class="nomRestaurant__heart">
+                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-solid fa-heart"></i>
                 </div>
             </div>
-            <div class="menu">
-                <p>Magret de canard</p>
-                <div class="menu__secondel">
-                    <p>Et parmentier de pommes de terre</p>
-                    <p>35€</p>
-                </div>
-            </div>
-            <div class="menu">
-                <p>Pigeonneau d’Ille-et-Vilaine</p>
-                <div class="menu__secondel">
-                    <p>Sur son lit de gnocchis aux légumes</p>
-                    <p>44€</p>
-                </div>
-            </div>
-        </section>
-        <h3>Desserts</h3>
-        <div class="traitVert"></div>
-        <section>
 
-            <div class="menu">
-                <p>Pétales de violettes glacés</p>
-                <div class="menu__secondel">
-                    <p>Et purée de noisettes</p>
-                    <p>18€</p>
+            <section class="section1">
+                <h3>Entrées</h3>
+                <div class="traitVert"></div>
+                <div class="choix">
+                    <div class="choix__menu">
+                        <p>Ravioles de foie gras </p>
+                        <div class="choix__menu--secondel">
+                            <p>Accompagnées de leur crème à la truffe</p>
+                            <p>25€</p>
+                        </div>
+                    </div>
+                    <div class="choix__commande">
+                        <i class="fa-solid fa-check"></i>
+                    </div>
                 </div>
-            </div>
-            <div class="menu">
-                <p>Fondant au chocolat</p>
-                <div class="menu__secondel">
-                    <p>Revisité</p>
-                    <p>22€</p>
+                <div class="choix">
+                    <div class="choix__menu">
+                        <p>Caviar osciètre </p>
+                        <div class="choix__menu--secondel">
+                            <p>Sur blini à la farine de blé noir</p>
+                            <p>35€</p>
+                        </div>
+                    </div>
+                    <div class="choix__commande">
+                        <i class="fa-solid fa-check"></i>
+                    </div>
                 </div>
-            </div>
-            <div class="menu">
-                <p>Millefeuille croustillant</p>
-                <div class="menu__secondel">
-                    <p>Myrtilles et pâte d’amande</p>
-                    <p>23€</p>
+                <div class="choix">
+                    <div class="choix__menu">
+                        <p>Homard et espuma de potiron</p>
+                        <div class="choix__menu--secondel">
+                            <p>Marinés aux zestes d'orange</p>
+                            <p>20€</p>
+                        </div>
+                    </div>
+                    <div class="choix__commande">
+                        <i class="fa-solid fa-check"></i>
+                    </div>
                 </div>
+                <div class="choix">
+                    <div class="choix__menu">
+                        <p>Foie gras de canard cuit entier</p>
+                        <div class="choix__menu--secondel">
+                            <p>Confiture de figue et pain toasté</p>
+                            <p>35€</p>
+                        </div>
+                    </div>
+                    <div class="choix__commande">
+                        <i class="fa-solid fa-check"></i>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section2">
+                <h3> Plats</h3>
+                <div class="traitVert"></div>
+                <div class="choix">
+                    <div class="choix__menu">
+                        <p>Noix de coquilles Saint-Jacques</p>
+                        <div class="choix__menu--secondel">
+                            <p>Sur lit de purée de céleri-rave</p>
+                            <p>40€</p>
+                        </div>
+                    </div>
+                    <div class="choix__commande">
+                        <i class="fa-solid fa-check"></i>
+                    </div>
+                </div>
+                <div class="choix">
+                    <div class="choix__menu">
+                        <p>Langoustine poêlée</p>
+                        <div class="choix__menu--secondel">
+                            <p>Purée de patate douce</p>
+                            <p>35€</p>
+                        </div>
+                    </div>
+                    <div class="choix__commande">
+                        <i class="fa-solid fa-check"></i>
+                    </div>
+                </div>
+                <div class="choix">
+                    <div class="choix__menu">
+                        <p>Mijoté de queue de bœuf</p>
+                        <div class="choix__menu--secondel">
+                            <p>Et riz sauvage aux zestes de citron</p>
+                            <p>44€</p>
+                        </div>
+                    </div>
+                    <div class="choix__commande">
+                        <i class="fa-solid fa-check"></i>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section3">
+                <h3>Desserts</h3>
+                <div class="traitVert"></div>
+                <div class="choix">
+                    <div class="choix__menu">
+                        <p>Macaron noisette et chocolat</p>
+                        <div class="choix__menu--secondel">
+                            <p>Glace au caramel brun et sel de Guérande</p>
+                            <p>18€</p>
+                        </div>
+                    </div>
+                    <div class="choix__commande">
+                        <i class="fa-solid fa-check"></i>
+                    </div>
+                </div>
+                <div class="choix">
+                    <div class="choix__menu">
+                        <p>Baba au rhum revisité </p>
+                        <div class="choix__menu--secondel">
+                            <p>Avec son coulis de citron</p>
+                            <p>22€</p>
+                        </div>
+                    </div>
+                    <div class="choix__commande">
+                        <i class="fa-solid fa-check"></i>
+                    </div>
+                </div>
+                <div class="choix">
+                    <div class="choix__menu">
+                        <p>Tarte au citron meringuée </p>
+                        <div class="choix__menu--secondel">
+                            <p>Déstructurée</p>
+                            <p>23€</p>
+                        </div>
+                    </div>
+                    <div class="choix__commande">
+                        <i class="fa-solid fa-check"></i>
+                    </div>
+                </div>
+            </section>
+            <div class="btn">
+                <button class="btn__long">Commander</button>
             </div>
-        </section>
-        <div class="btn">
-            <button class="btn__long">Commander</button>
         </div>
     </main>
     <footer>
@@ -120,7 +188,7 @@
             <P>Devenir Partenaire</P>
         </div>
         <P>Mention légale</P>
-        <P>Contact</P>
+        <P><A HREF="mailto:emmanuel.caiola@free.fr">Contact</A></P>
 
 
     </footer>
