@@ -377,6 +377,7 @@ main {
   -webkit-background-clip: text;
           background-clip: text;
   opacity: 0;
+  cursor: pointer;
 }
 .heart .fa-solid:hover {
   opacity: 1;

@@ -416,6 +416,7 @@ main {
         background-image: $color-gradient;
         background-clip: text;
         opacity: 0;
+        cursor: pointer;
 
         &:hover {
             opacity: 1;
