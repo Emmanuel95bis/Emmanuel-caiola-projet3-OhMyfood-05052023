@@ -353,7 +353,7 @@ section {
 
 @media (width < 386px) {
   .choix__menu {
-    width: 92%;
+    width: 79%;
   }
 }
 @media (width < 262px) {
